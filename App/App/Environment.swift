@@ -9,7 +9,7 @@
 import Foundation
 
 class Environment {
-
+    // swiftlint:disable all
     static let baseUrl = URL(string: Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String)!
 
     static let imageBaseUrl = URL(string: Bundle.main.object(forInfoDictionaryKey: "IMAGE_BASE_URL") as! String)!

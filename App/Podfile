@@ -7,6 +7,12 @@ target 'App' do
 
   # Pods for App
 
+  pod 'SwiftLint'
+  pod 'R.swift'
+  pod 'Moya', '~> 13.0'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'Cosmos', '~> 20.0'
+
   target 'AppTests' do
     inherit! :search_paths
     # Pods for testing

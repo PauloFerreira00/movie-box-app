@@ -1,0 +1,17 @@
+excluded: 
+  - Pods
+  - R.generated.swift
+
+disabled_rules: 
+  - colon
+
+line_length:
+  warning: 150
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
+
+identifier_name:
+  min_length: 2
+  max_length: 30
