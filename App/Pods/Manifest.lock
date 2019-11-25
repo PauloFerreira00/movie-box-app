@@ -1,44 +1,60 @@
 PODS:
   - Alamofire (4.9.1)
+  - Cosmos (20.0.1)
   - Kingfisher (5.9.0):
     - Kingfisher/Core (= 5.9.0)
   - Kingfisher/Core (5.9.0)
+  - MarqueeLabel (4.0.0)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
+  - NotificationBannerSwift (2.5.0):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
   - R.swift (5.1.0):
     - R.swift.Library (~> 5.1.0)
   - R.swift.Library (5.1.0)
   - Result (4.1.0)
+  - SnapKit (5.0.1)
   - SwiftLint (0.36.0)
 
 DEPENDENCIES:
+  - Cosmos (~> 20.0)
   - Kingfisher (~> 5.0)
   - Moya (~> 13.0)
+  - NotificationBannerSwift (= 2.5.0)
   - R.swift
   - SwiftLint
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Cosmos
     - Kingfisher
+    - MarqueeLabel
     - Moya
+    - NotificationBannerSwift
     - R.swift
     - R.swift.Library
     - Result
+    - SnapKit
     - SwiftLint
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cosmos: b47fddf2102bb48580cd3025d9ce0a5c658a65da
   Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  NotificationBannerSwift: 684966fa934c48b70eff8bbec93fccf8db603365
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
   R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftLint: fc9859e4e1752340664851f667bb1898b9c90114
 
-PODFILE CHECKSUM: 4e482a89feca6728b338c2fcd16ed0c1d80170be
+PODFILE CHECKSUM: b2d3db501efe9e7db50ff95fdf2ed1f669b9448d
 
 COCOAPODS: 1.8.4
