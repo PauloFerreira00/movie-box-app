@@ -26,7 +26,6 @@
 		53E11EBE238C2EA3009A9B2B /* Identifier+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11EBD238C2EA3009A9B2B /* Identifier+Extensions.swift */; };
 		53E11EC2238C2FCE009A9B2B /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11EC1238C2FCE009A9B2B /* MovieCellViewModel.swift */; };
 		53E11EC4238C305E009A9B2B /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11EC3238C305E009A9B2B /* UICollectionView+Extensions.swift */; };
-		53E11ECA238CAA9B009A9B2B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11EC9238CAA9B009A9B2B /* GradientView.swift */; };
 		53E11ECC238CADFE009A9B2B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11ECB238CADFE009A9B2B /* CardView.swift */; };
 		53E11ECE238CC6AB009A9B2B /* Global+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11ECD238CC6AB009A9B2B /* Global+Extensions.swift */; };
 		53E11ED4238CCF18009A9B2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E11ED2238CCF18009A9B2B /* DetailViewController.swift */; };
@@ -717,7 +716,6 @@
 				53E11EBB238C2E00009A9B2B /* MovieCell.swift in Sources */,
 				53E11EA5238B1B60009A9B2B /* Reachability.swift in Sources */,
 				53E11ED4238CCF18009A9B2B /* DetailViewController.swift in Sources */,
-				53E11ECA238CAA9B009A9B2B /* GradientView.swift in Sources */,
 				53E11EB3238B72AF009A9B2B /* RequestParameters.swift in Sources */,
 				53E11EC2238C2FCE009A9B2B /* MovieCellViewModel.swift in Sources */,
 				53FEBCF9238B0FD600570FC1 /* MovieService.swift in Sources */,
