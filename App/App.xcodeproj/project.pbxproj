@@ -89,7 +89,6 @@
 		53E11EBD238C2EA3009A9B2B /* Identifier+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identifier+Extensions.swift"; sourceTree = "<group>"; };
 		53E11EC1238C2FCE009A9B2B /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
 		53E11EC3238C305E009A9B2B /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		53E11EC9238CAA9B009A9B2B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		53E11ECB238CADFE009A9B2B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		53E11ECD238CC6AB009A9B2B /* Global+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global+Extensions.swift"; sourceTree = "<group>"; };
 		53E11ED2238CCF18009A9B2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -379,7 +378,6 @@
 		53E11EC8238CAA89009A9B2B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				53E11EC9238CAA9B009A9B2B /* GradientView.swift */,
 				53E11ECB238CADFE009A9B2B /* CardView.swift */,
 			);
 			path = Components;
