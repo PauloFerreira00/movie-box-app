@@ -13,4 +13,11 @@ class Environment {
     static let baseUrl = URL(string: Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String)!
 
     static let imageBaseUrl = URL(string: Bundle.main.object(forInfoDictionaryKey: "IMAGE_BASE_URL") as! String)!
+
+    static let apiKey = URL(string: Bundle.main.object(forInfoDictionaryKey: "API_KEY") as! String)!
+}
+
+enum Language: String {
+    case pt_BR = "pt_BR"
+    case en_US = "en_US"
 }
