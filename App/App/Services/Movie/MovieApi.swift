@@ -24,9 +24,9 @@ extension MovieApi: TargetType {
         case .popularMovies:
             return "popular"
         case .details(let id):
-            return "movie/\(id)"
-        case .credits(let id):
-            return "movie/\(id)/credits"
+            return "\(id)"
+        case .credits(let id, _):
+            return "\(id)/credits"
         }
     }
 
@@ -79,8 +79,7 @@ extension MovieApi {
             return parameters
         case .credits(_, let language):
             let parameters: [String: Any] = [
-                RequestParameters.Key.apiKey.rawValue: Environment.apiKey,
-                RequestParameters.Key.language.rawValue: language.rawValue
+                RequestParameters.Key.apiKey.rawValue: Environment.apiKey
             ]
             return parameters
         }

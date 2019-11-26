@@ -15,4 +15,8 @@ class MovieService: BaseService<MovieApi> {
     func fetchPopularMovies(pageNumber: Int, completion: @escaping RequestCompletionHandler<MovieListResponse>) {
         fetch(.popularMovies(pageNumber: pageNumber, language: Language.pt_BR), dataType: MovieListResponse.self, completion: completion)
     }
+
+    func fetchCredits(id: Int, completion: @escaping RequestCompletionHandler<MovieCredits>) {
+        fetch(.credits(id: id, language: Language.pt_BR), dataType: MovieCredits.self, completion: completion)
+    }
 }
