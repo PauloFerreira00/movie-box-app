@@ -15,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let viewModel = PopularMoviesViewModel(pageNumber: 1)
+        let viewController = PopularMoviesViewController.instantiate(with: viewModel)
+
+        window = UIWindow()
+        window?.rootViewController = viewController
         return true
     }
 
