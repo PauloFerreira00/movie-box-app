@@ -10,4 +10,6 @@ import Foundation
 
 struct MovieDetail {
     let movie: Movie
+    let author: String
+    let director: String
 }
