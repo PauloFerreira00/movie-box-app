@@ -110,3 +110,12 @@ extension PopularMoviesViewController: UICollectionViewDataSource {
     }
 
 }
+
+extension PopularMoviesViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let movie = self.viewModel?.popularMovies[indexPath.item] else { return }
+        let viewModel = DetailViewModel(movie: movie)
+        let viewController = DetailViewController.instantiate(with: viewModel)
+        self.present(UINavigationController(rootViewController: viewController), animated: true, completion: nil)
+    }
+}
