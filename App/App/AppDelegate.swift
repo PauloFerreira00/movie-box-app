@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let viewController = PopularMoviesViewController.instantiate(with: viewModel)
 
         window = UIWindow()
-        window?.rootViewController = viewController
+        window?.rootViewController = UINavigationController(rootViewController: viewController)
         return true
     }
 

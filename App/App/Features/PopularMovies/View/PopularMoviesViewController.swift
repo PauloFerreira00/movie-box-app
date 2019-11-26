@@ -116,6 +116,6 @@ extension PopularMoviesViewController: UICollectionViewDelegate {
         guard let movie = self.viewModel?.popularMovies[indexPath.item] else { return }
         let viewModel = DetailViewModel(movie: movie)
         let viewController = DetailViewController.instantiate(with: viewModel)
-        self.present(UINavigationController(rootViewController: viewController), animated: true, completion: nil)
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
